@@ -17,5 +17,5 @@ Para acceder a la app:
 
 Comandos útiles:
   kubectl get all -n {{ .Values.global.namespace }}
-  helm status {{ .Release.Name }}
-  helm history {{ .Release.Name }}
+  helm status mi-app -n devops-portfolio
+  helm history mi-app -n devops-portfolio
